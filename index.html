@@ -3,27 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
+
     <title>Login</title>
- <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" type="text/css" href="./src/styles/style.css">
 </head> 
 <body>
-    <div class="main-login">
-        <div class="left-login">
-    </div>
-    <div class="right-login">
-        <div class="card-login">
-            <h1>LOGIN</h1>
-            <div class="textfield">
-                <label for="usuario">Usuario</label>
-                <input type="text" name="usuario" placeholder="Usuario">
+    <main>
+        <form>
+            <div class="title">
+                <h1>Login</h1>
             </div>
-            <div class="textfield">
-            <label for="senha">Senha</label>
-            <input type="text" name="senha" placeholder="Senha">
+
+            <div class="content">
+                <div class="class-form">
+                    <label for="username">Usuário</label>
+                    <input type="text" id="username" placeholder="Digite aqui seu nome...">
+                </div>
+                <div class="class-form">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" placeholder="*******">
+                </div>
             </div>
-            <button class="btn-login">Login</button>
-        </div>
-    </div>
-</div>      
+
+            <button id="submit" type="submit">Entrar</button>
+        </form>
+    </main>
+</div>
 </body>
+
+<script src="./src/js/index.js" type="text/javascript"></script>
 </html>
